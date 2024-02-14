@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head2 
+{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+ul > li
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    transition: .4s;
+}
+
+a:hover
+{
+    color: orange;
+    font-weight: 600;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    background-color: #f2eaea;
+}
+
+.General
+{
+    position: relative;
+    background-color: #e5e4dd;
+    width: 90%;
+    height: auto;
+    margin: 25px auto;
+    padding: 25px;
+    border: solid #898686;
+    border-width: 3px;
+    border-radius: 25px;
+    box-shadow: 1px 3px 10px 1px;
+}
+
+.section0
+{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section0 > h1 
+{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+.section1
+{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section1 > h2, p
+{
+    clear: both;
+    margin-top: 10px;
+    left: 50px;
+}
+
+.section2
+{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section3
+{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section4
+{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section5
+{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+.section6
+{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px 1px;
+}
+
+footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: #fc4567;
+}
+
+footer > p
+{
+    text-align: center;
+    padding: 20px;
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.section0:hover,
+.section1:hover,
+.section2:hover,
+.section3:hover,
+.section4:hover,
+.section5:hover,
+.section6:hover
+{
+    background-color: rgb(113, 117, 121);
+    color: #f2eaea;
+}
+
+@media (max-width: 990.40px)
+{
+    html
+    {
+        font-size: 75%;
+    }
+
+    .section0 > h1 
+    {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 824px)
+{
+    html
+    {
+        font-size: 65%;
+    }
+
+    .section0 > h1 
+    {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 781.60px)
+{
+    html
+    {
+        font-size: 60%;
+    }
+
+    .section0
+    {
+        position: relative;
+        display: block;
+    }
+
+    .section0 > h1 
+    {
+        font-size: 2rem;
+    }
+}
